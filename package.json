@@ -1,0 +1,22 @@
+{
+  "name": "aidesigner-open",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/*",
+    "mock-server"
+  ],
+  "scripts": {
+    "build": "npm run build -w @aidesigner/workflow-types && npm run build -w @aidesigner/api-client && npm run build -w @aidesigner/cli && npm run build -w @aidesigner/mcp-server && npm run build -w @aidesigner/mock-server",
+    "test": "npm run build && node --test conformance/*.test.mjs",
+    "mock": "npm run start -w @aidesigner/mock-server"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.8.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

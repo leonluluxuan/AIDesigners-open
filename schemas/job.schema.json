@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://aidesigners.art/schemas/job.schema.json",
+  "title": "AIDesigner Public Job",
+  "type": "object",
+  "required": ["jobId", "status"],
+  "properties": {
+    "jobId": { "type": "string", "minLength": 1 },
+    "status": { "enum": ["queued", "processing", "running", "awaiting_review", "completed", "failed", "cancelled"] },
+    "progress": { "type": "number", "minimum": 0, "maximum": 100 },
+    "result": { "type": "object" },
+    "error": {
+      "type": "object",
+      "required": ["code", "message"],
+      "properties": {
+        "code": { "type": "string" },
+        "message": { "type": "string" },
+        "retryable": { "type": "boolean" }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": true
+}

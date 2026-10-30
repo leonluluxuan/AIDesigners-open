@@ -1,0 +1,8 @@
+{
+  "moduleId": "benefit-overview",
+  "purpose": "Explain verified product benefits without inventing claims",
+  "exactCopy": "Use only copy approved by the user",
+  "evidenceIds": ["product-photo-1", "fact-sheet-1"],
+  "referenceRoles": ["product"],
+  "productQuantity": 1
+}

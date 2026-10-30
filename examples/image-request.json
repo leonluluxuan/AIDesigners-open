@@ -1,0 +1,9 @@
+{
+  "prompt": "Create a clean studio product photograph using the supplied reference as the identity authority. Preserve the visible product count, proportions, colors, materials, labels, and packaging geometry. Use a neutral background and soft directional light.",
+  "size": "1:1",
+  "preset": "2k",
+  "count": 1,
+  "referenceImageUrls": [
+    "https://example.invalid/temporary-reference-url"
+  ]
+}

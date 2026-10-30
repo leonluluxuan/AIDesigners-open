@@ -1,0 +1,16 @@
+{
+  "name": "@aidesigner/cli",
+  "version": "0.1.0",
+  "type": "module",
+  "bin": {
+    "aidesigner": "dist/index.js"
+  },
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json && node ../../scripts/make-executable.mjs dist/index.js"
+  },
+  "dependencies": {
+    "@aidesigner/api-client": "0.1.0"
+  },
+  "files": ["dist"]
+}

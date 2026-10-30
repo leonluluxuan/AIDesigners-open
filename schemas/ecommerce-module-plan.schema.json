@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://aidesigners.art/schemas/ecommerce-module-plan.schema.json",
+  "title": "AIDesigner Ecommerce Module Plan",
+  "type": "object",
+  "required": ["moduleId", "purpose", "evidenceIds", "referenceRoles", "productQuantity"],
+  "properties": {
+    "moduleId": { "type": "string" },
+    "purpose": { "type": "string" },
+    "exactCopy": { "type": "string" },
+    "evidenceIds": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+    "referenceRoles": { "type": "array", "items": { "enum": ["product", "person", "scene", "style"] }, "minItems": 1 },
+    "productQuantity": { "type": "integer", "minimum": 1 }
+  },
+  "additionalProperties": false
+}

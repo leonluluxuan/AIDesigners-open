@@ -1,0 +1,18 @@
+{
+  "schemaVersion": "aidesigner-workflow/v1",
+  "sourceDurationSec": 10,
+  "evidence": [
+    { "id": "ev-1", "sourceTimestampSec": 1, "description": "Opening product reveal" },
+    { "id": "ev-2", "sourceTimestampSec": 6, "description": "Usage demonstration" }
+  ],
+  "units": [
+    { "id": "unit-1", "startSec": 0, "endSec": 5, "evidenceIds": ["ev-1"], "intent": "Establish the product and hook", "productQuantity": 1 },
+    { "id": "unit-2", "startSec": 5, "endSec": 10, "evidenceIds": ["ev-2"], "intent": "Demonstrate one verified use", "productQuantity": 1 }
+  ],
+  "frames": [
+    { "id": "frame-1", "unitId": "unit-1", "sourceTimestampSec": 1, "evidenceIds": ["ev-1"], "shotPurpose": "Product reveal", "referenceRoles": ["source_frame_sheet", "product"] },
+    { "id": "frame-2", "unitId": "unit-2", "sourceTimestampSec": 6, "evidenceIds": ["ev-2"], "shotPurpose": "Usage demonstration", "referenceRoles": ["source_frame_sheet", "product", "person"] }
+  ],
+  "claims": [],
+  "requiresConfirmation": true
+}

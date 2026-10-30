@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "aidesigner": {
+      "command": "node",
+      "args": [
+        "/absolute/path/to/aidesigner-open/packages/mcp-server/dist/index.js"
+      ],
+      "env": {
+        "AIDESIGNER_API_KEY": "${AIDESIGNER_API_KEY}",
+        "AIDESIGNER_BASE_URL": "${AIDESIGNER_BASE_URL:-https://aidesigners.art}"
+      }
+    }
+  }
+}

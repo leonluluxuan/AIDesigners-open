@@ -1,0 +1,39 @@
+# AIDesigner Source Available License 1.0
+
+Copyright (c) 2026 AIDesigner. All rights reserved.
+
+This software is made available under the Apache License, Version 2.0, subject to the following additional conditions. If an additional condition conflicts with Apache-2.0, the additional condition controls.
+
+1. Permitted use
+
+You may use, copy, modify, and run the software for personal use, research, evaluation, and your own organization's internal purposes. Your organization may use it for commercial work performed by that organization, including work performed for its clients, provided that the software itself is not supplied to third parties for commercial gain and is not operated as a prohibited multi-tenant service.
+
+2. Multi-tenant hosted services
+
+Without prior written commercial authorization from AIDesigner, you may not use this software or a derivative work to operate a multi-tenant hosted, managed, or software-as-a-service offering for third parties, whether or not a fee is charged. A tenant means an isolated workspace, account, project collection, credential set, or configuration belonging to a separate external party. Two or more external parties with separate tenants constitute a multi-tenant service.
+
+3. Commercial redistribution
+
+Without prior written commercial authorization from AIDesigner, you may not sell, license for a fee, bundle for commercial gain, or otherwise commercially redistribute this software or a derivative work as a product, application, package, or device supplied to third parties.
+
+Forking, modifying, and publishing source is permitted when the published derivative remains under this same license and is not supplied for commercial gain.
+
+4. Notices
+
+You may not remove copyright, license, or attribution notices from the software. This condition does not require AIDesigner branding to appear in user-created images, videos, or other outputs.
+
+5. Contributions
+
+By submitting a contribution, you represent that you have the right to submit it and grant AIDesigner a perpetual, worldwide, irrevocable, royalty-free license to use, reproduce, modify, distribute, sublicense, and commercialize the contribution. AIDesigner may release future versions under different terms; existing versions remain available under the terms that accompanied them.
+
+6. Ownership of outputs
+
+AIDesigner claims no ownership in images, videos, audio, plans, manifests, or other artifacts created through use of the software. Third-party model and service terms may separately apply.
+
+7. Commercial licenses
+
+For permissions beyond these conditions, request a commercial license through https://aidesigners.art.
+
+Except for the additional conditions above, the Apache License, Version 2.0 applies. A copy is available at https://www.apache.org/licenses/LICENSE-2.0.
+
+This license is source-available and is not an OSI-approved open-source license. It is a draft software license and is not legal advice; obtain qualified legal review before publication.

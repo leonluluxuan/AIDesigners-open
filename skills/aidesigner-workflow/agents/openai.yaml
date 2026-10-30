@@ -1,0 +1,7 @@
+interface:
+  display_name: "AIDesigner Workflow"
+  short_description: "Run staged image, video, and ecommerce workflows"
+  brand_color: "#315EFB"
+  default_prompt: "Use $aidesigner-workflow to turn my references and requirements into a reviewable media workflow and execute it with the available tools."
+policy:
+  allow_implicit_invocation: true
