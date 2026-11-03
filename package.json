@@ -2,6 +2,16 @@
   "name": "aidesigner-open",
   "version": "0.1.0",
   "private": true,
+  "description": "Public workflow contracts, CLI, local MCP server, and provider-adapter interfaces for agent-driven media creation.",
+  "license": "SEE LICENSE IN LICENSE",
+  "homepage": "https://aidesigners.art",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leonluluxuan/AIDesigners-open.git"
+  },
+  "bugs": {
+    "url": "https://github.com/leonluluxuan/AIDesigners-open/issues"
+  },
   "type": "module",
   "workspaces": [
     "packages/*",
